@@ -1,1 +1,1 @@
-let myModal = $('.modal').modal();
+let modalBlock = $('.modal').modal();

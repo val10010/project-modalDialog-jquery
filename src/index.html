@@ -9,62 +9,68 @@
     <title>Document</title>
   </head>
   <body>
- <div class="ButtonTop" >
-    <button class="ButtonTop__elem" data-show="modalFirst">
-        run  popup1
-    </button>
- 
-    <button class="ButtonTop__elem"  data-show="modalSecond">
-        run  popup2
-    </button>
-    <button class="ButtonTop__elem"  data-show="modalThird">
-      run  popup3
-  </button>
- </div>
+    <div class="ButtonTop">
+      <button class="ButtonTop__elem" data-show="modalFirst">run popup1</button>
 
-
- <div class="modal hide" data-show="modalFirst">
-   <div class="modal__content">
-     <img src="img/icon-warning_notify-red.svg" 
-          class="imgWarning" alt="warnning"
-     />
-     <h2>Are you sure you want to unistal the Shazam app</h2>
-     <div class="modal__button">
-        <button class="modal__button__primary" data-cancel="closeModal">Cancel</button>
-        <button class="modal__button__secondary" data-unistal="openAlert">Unistal</button>
-      </div>  
-   </div>
-    
- </div>
-
- <div class="modal hide" data-show="modalSecond">
-    <div class="modal__content">
-      <img src="img/clip.png" 
-           class="imgWarning" alt="warnning"
-      />
-      <h2>Are you sure you want to unistal the Shazam Are</h2>
-      <div class="modal__button">
-         <button class="modal__button__primary" data-cancel="closeModal">Cancel</button>
-         <button class="modal__button__secondary" data-install="openAlert" >Install</button>
-       </div>  
+      <button class="ButtonTop__elem" data-show="modalSecond">
+        run popup2
+      </button>
+      <button class="ButtonTop__elem" data-show="modalThird">run popup3</button>
     </div>
-     
-  </div>
 
-  <div class="modal hide" data-show="modalThird">
-    <div class="modal__content">
-      <img src="img/clip.png" 
-           class="imgWarning" alt="warnning"
-      />
-      <h2>Are you sure you want to 00000000dsbdfsdfsdfsdf</h2>
-      <div class="modal__button">
-         <button class="modal__button__primary" data-cancel="closeModal">Cancel</button>
-         <button class="modal__button__secondary" data-install="openAlert" >Install</button>
-       </div>  
+    <div class="modal hide" data-show="modalFirst">
+      <div class="modal__content">
+        <img
+          src="img/icon-warning_notify-red.svg"
+          class="imgWarning"
+          alt="warnning"
+        />
+        <h2>Are you sure you want to unistal the Shazam app</h2>
+        <div class="modal__button">
+          <button class="modal__button__primary" data-cancel="closeModal">
+            Cancel
+          </button>
+          <button class="modal__button__secondary" data-unistal="openAlert">
+            Unistal
+          </button>
+        </div>
+      </div>
     </div>
-     
-  </div>
-   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <div class="modal hide" data-show="modalSecond">
+      <div class="modal__content">
+        <img src="img/clip.png" class="imgWarning" alt="warnning" />
+        <h2>Are you sure you want to unistal the Shazam Are</h2>
+        <div class="modal__button">
+          <button class="modal__button__primary" data-cancel="closeModal">
+            Cancel
+          </button>
+          <button class="modal__button__secondary" data-install="openAlert">
+            Install
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal hide" data-show="modalThird">
+      <div class="modal__content">
+        <img src="img/clip.png" class="imgWarning" alt="warnning" />
+        <h2>Are you sure you want to 00000000dsbdfsdfsdfsdf</h2>
+        <div class="modal__button">
+          <button class="modal__button__primary" data-cancel="closeModal">
+            Cancel
+          </button>
+          <button class="modal__button__secondary" data-install="openAlert">
+            Install
+          </button>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
     <script src="main.js"></script>
   </body>
