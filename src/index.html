@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <title>Document</title>
+  </head>
+  <body>
+ <div class="ButtonTop" >
+    <button class="ButtonTop__elem" data-show="modalFirst">
+        run  popup1
+    </button>
+ 
+    <button class="ButtonTop__elem"  data-show="modalSecond">
+        run  popup2
+    </button>
+ </div>
+
+
+ <div class="modal hide" data-show="modalFirst">
+   <div class="modal__content">
+     <img src="img/icon-warning_notify-red.svg" 
+          class="imgWarning" alt="warnning"
+     />
+     <h2>Are you sure you want to unistal the Shazam app</h2>
+     <div class="modal__button">
+        <button class="modal__button__primary" data-cancel="closeModal">Cancel</button>
+        <button class="modal__button__secondary" data-unistal="openAlert">Unistal</button>
+      </div>  
+   </div>
+    
+ </div>
+
+ <div class="modal hide" data-show="modalSecond">
+    <div class="modal__content">
+      <img src="img/clip.png" 
+           class="imgWarning" alt="warnning"
+      />
+      <h2>Are you sure you want to unistal the Shazam Are</h2>
+      <div class="modal__button">
+         <button class="modal__button__primary" data-cancel="closeModal">Cancel</button>
+         <button class="modal__button__secondary" data-install="openAlert" >Install</button>
+       </div>  
+    </div>
+     
+  </div>
+
+       
+        
+    <script src="script.js"></script>
+  </body>
+</html>

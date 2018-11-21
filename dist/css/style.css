@@ -1,0 +1,66 @@
+.ButtonTop {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+  .ButtonTop__elem {
+    width: 100px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer; }
+    .ButtonTop__elem:hover {
+      box-shadow: 0px 1px 1px 1px blue; }
+
+.modal {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  max-height: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 150px auto;
+  padding: 20px;
+  background: #fff;
+  position: relative;
+  animation: dialogAnim 0.4s; }
+  .modal__content {
+    max-width: 540px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .modal__button {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 30px; }
+    .modal__button__primary {
+      border: 2px solid #d8dfeb;
+      color: #8b97a8;
+      border-radius: 5px;
+      padding: 0 60px;
+      height: 31px;
+      align-items: center;
+      cursor: pointer; }
+    .modal__button__secondary {
+      background: #fb3d39;
+      color: white;
+      padding: 0 60px;
+      border-radius: 5px;
+      height: 35px;
+      align-items: center;
+      cursor: pointer; }
+
+.imgWarning {
+  width: 170px;
+  height: 170px; }
+
+.hide {
+  display: none; }
+
+@keyframes dialogAnim {
+  0% {
+    top: -200px;
+    opacity: 0; }
+  100% {
+    top: 0px;
+    opacity: 1; } }
