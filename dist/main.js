@@ -1,0 +1,1 @@
+let myModal = $('.modal').modal();

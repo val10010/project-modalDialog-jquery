@@ -1,4 +1,5 @@
-(function () {
+
+$.fn.modal = function modal(options) {
   const buttonTop = document.querySelector('.ButtonTop');
   const modals = document.querySelectorAll('.modal');
 
@@ -53,4 +54,4 @@
       }
     });
   });
-}());
+};
